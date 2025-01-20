@@ -12,3 +12,5 @@ short_description: ' Automatic Subtitle Korean Translation'
 ---
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+
+check! 
