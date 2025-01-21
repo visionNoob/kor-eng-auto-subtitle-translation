@@ -9,7 +9,8 @@ CHATGPT_MODELS = ["gpt-4o", "gpt-4o-mini"]
 with gr.Blocks() as demo:
     gr.Markdown(
         """
-        # VisionNoob's Subtitles Translator (English ⏩ Korean) 🌍  
+        # Project C.L.I.C.K 🌟 [딸.깍]
+        ## VisionNoob's Subtitles Translator (English ⏩ Korean) 🌍  
 
         This demo uses ChatGPT to automatically translate English subtitles into Korean.
         [🌐 Github](https://github.com/visionNoob/kor-eng-auto-subtitle-translation)  
@@ -72,7 +73,7 @@ with gr.Blocks() as demo:
                 textbox_input_subtitles = gr.Textbox(
                     show_copy_button=True, label="Input Subtitles"
                 )
-                button_translate = gr.Button("Translate", variant="stop")
+                button_translate = gr.Button("딸   깍", variant="stop")
             with gr.Column():
                 gr.Markdown("# 5️⃣ Translated Subtitles")
                 textbox_output_subtitles = gr.Textbox(
