@@ -64,7 +64,7 @@ with gr.Blocks() as demo:
         file_output = gr.File(
             label="Upload Subtitles", type="filepath", file_types=[".srt"]
         )
-
+        gr.Examples([["assets/sample_subtitle.srt"]], file_output)
         lines = gr.State()
         with gr.Row():
             with gr.Column():
@@ -79,7 +79,7 @@ with gr.Blocks() as demo:
                     show_copy_button=True, label="Translated Subtitles"
                 )
                 button_download = gr.DownloadButton("Download", variant="secondary")
-        file_output.upload(
+        file_output.change(
             utils.upload_file, file_output, [textbox_input_subtitles, lines]
         )
 

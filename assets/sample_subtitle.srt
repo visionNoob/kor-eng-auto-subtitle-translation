@@ -1,0 +1,76 @@
+1
+00:00:00,000 --> 00:00:08,120
+hi in this video we learn how to trace the recursive function and how to write
+
+2
+00:00:08,120 --> 00:00:12,780
+a recurrence relation and how to solve a recurrence relation so I am taking
+
+3
+00:00:12,780 --> 00:00:17,280
+one of the example then in the other videos you can find following examples
+
+4
+00:00:17,280 --> 00:00:23,080
+more examples will come in other videos let us start already I have an
+
+5
+00:00:23,080 --> 00:00:26,560
+algorithm or function here a C language function I have written you
+
+6
+00:00:26,560 --> 00:00:32,000
+call it as algorithm also test is a function which is taking n as input and
+
+7
+00:00:32,640 --> 00:00:37,380
+if n is greater than 0 it is printing the value and then it is calling itself
+
+8
+00:00:37,380 --> 00:00:44,520
+for n minus 1 so I will take some sample value and test it suppose I am
+
+9
+00:00:44,520 --> 00:00:53,960
+calling this function by passing 3 let us see what happens if I pass 3 test
+
+10
+00:00:56,560 --> 00:01:07,100
+3 3 is greater than 0 yes 3 is greater than 0 print 3 so it will print 3 then
+
+11
+00:01:07,100 --> 00:01:26,080
+call itself for 3 minus 1 that is 2 so call test 2 then for 2 again it's a
+
+12
+00:01:27,860 --> 00:01:32,720
+1 is greater than 0 so it's a recursive call again for this one as it
+
+13
+00:01:32,720 --> 00:01:42,940
+is greater than 0 it will print 1 and call itself for test 0 now when it is
+
+14
+00:01:42,940 --> 00:01:48,140
+0 0 is not greater than 0 so it will not call itself and it will stop
+
+15
+00:01:49,940 --> 00:01:56,440
+doesn't go further so this is a tracing tree for this particular function or
+
+16
+00:01:56,440 --> 00:02:04,620
+recursive function I have passed 3 so what is the time taken by this one so
+
+17
+00:02:04,620 --> 00:02:10,220
+let us see what it is doing and this call it is printing a value then
+
+18
+00:02:10,220 --> 00:02:15,240
+calling again printing a value and calling again printing a value and
+
+19
+00:02:15,240 --> 00:02:21,400
+calling again so the amount of work done is just printing value how many
+
