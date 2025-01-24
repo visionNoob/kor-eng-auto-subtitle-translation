@@ -140,7 +140,7 @@ class Translator:
         system_prompt: str,
         user_prompt: str,
         progress=tqdm,
-        batch_size: int = 10,
+        batch_size: int = 30,
     ):
         """
         Translate subtitles using batch processing.
